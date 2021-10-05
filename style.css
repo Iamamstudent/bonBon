@@ -16,9 +16,12 @@
 }
 
 .mainNav a:hover {
-    background-color: #36c3fe;
+    background-color: rgb(81, 126, 234);
 }
 
+body {
+    margin: 0;
+}
 
 button {
 	background-color:#6592fe;
