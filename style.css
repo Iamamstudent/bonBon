@@ -23,6 +23,35 @@ body {
     margin: 0;
 }
 
+inputBlock {
+    background-color:#6592fe;
+    border-radius: 20px;
+	border: 3px solid rgba(31, 76, 184);
+	display:inline-block;
+    height: 40px;
+	color:rgba(31, 76, 184);
+	font-family:SBAggroB;
+	font-size:25px;
+	padding:15px 30px;
+	text-decoration:none;
+    text-align:center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 0px rgba(51, 96, 204);
+}
+
+input {
+    background-color: #6592fe;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(51, 96, 204);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    width: 100px;
+}
+
 button {
 	background-color:#6592fe;
     border-radius: 20px;
