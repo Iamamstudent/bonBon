@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 
 <html>
-<link href="./style.css" rel="stylesheet" />
+<link href="./style.css" rel="stylesheet"/>
 <head>
+    <script type = "text/javascript" src = "nextPage.js"></script>
 <title>Sea Pineapple</title>
 </head>
 
@@ -17,7 +18,7 @@
         <h6 style="text-align: center; margin-top: 0; margin-bottom: 35px; font-family: SBAggroB; font-size: 15px; color: #36c3fe;">고유학번이 없다면 나이스 학번을 알려주세요.</h6>
         <div class="buttonLane">
             <inputBlock> 
-                <input type="text" name="studentId" id="studentId">
+                <input type="text" name="studentId" onkeyup="nextPage(1)" id="studentId">
             </inputBlock>
         </div>
     </div>
