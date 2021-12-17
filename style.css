@@ -1,6 +1,6 @@
 .mainNav{
     list-style-type: none;
-    background-color: #6592fe;
+    background-color:  rgb(163,67,25);
     overflow: hidden;
     padding:0;
     margin:0;
@@ -21,6 +21,7 @@
 
 body {
     margin: 0;
+    background-color:rgb(250, 185, 114);
 }
 
 inputBlock {
@@ -53,12 +54,12 @@ input {
 }
 
 button {
-	background-color:#6592fe;
+	background-color:rgb(163,67,25);
     border-radius: 20px;
 	border: 3px solid rgba(31, 76, 184);
 	display:inline-block;
 	cursor:pointer;
-	color:rgba(31, 76, 184);
+	color:rgb(250, 185, 114);
 	font-family:SBAggroB;
 	font-size:25px;
 	padding:15px 30px;
