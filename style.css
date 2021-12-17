@@ -49,8 +49,11 @@ input {
     border-bottom: 2px solid rgb(51, 96, 204);
     font-size: 25px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 5px;
     width: 100px;
+    font-family:SBAggroB;
 }
 
 button {

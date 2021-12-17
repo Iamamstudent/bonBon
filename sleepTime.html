@@ -3,13 +3,14 @@
 <html>
 <link href="./style.css" rel="stylesheet" />
 <head>
+    <script type = "text/javascript" src = "nextPage.js"></script>
 <title>Sea Pineapple</title>
 </head>
 
 <body>
     <nav class="mainNav">
-        <a href="file:///C:/Developer/Bon%20Bon/Home.html">☰ menu</a> 
-        <a href="file:///C:/Developer/Bon%20Bon/Home.html">Home</a> 
+        <a href="index.html">☰ menu</a> 
+        <a href="index.html">Home</a> 
     </nav>
 
     <div class="questionFade">
@@ -17,13 +18,11 @@
         <h6 style="text-align: center; margin-top: 0; margin-bottom: 35px; font-family: SBAggroB; font-size: 15px; color: #36c3fe;">(00시~24시)</h6>   
         <div class="buttonLane">
             <inputBlock href="#"> 
-                <section class="bun-type">
-                    <input type="text" name="sleepTime" id="sleepTime"> 
+                <input type="text" name="sleepTime" onkeyup="nextPage(6)" id="sleepTime"> 
                 <h6 style="float: right; text-align: center; margin-top: 4px; font-family: SBAggroB; font-size: 25px;">&nbsp;시</h6>
             </inputBlock>
         </div>
     </div>
-
 
 </body>
 
