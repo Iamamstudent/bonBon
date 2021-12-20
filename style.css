@@ -1,6 +1,9 @@
+html {
+    height:100%;
+}
 .mainNav{
     list-style-type: none;
-    background-color:  rgb(163,67,25);
+    background-color:  #6592fe;
     overflow: hidden;
     padding:0;
     margin:0;
@@ -13,15 +16,73 @@
     text-decoration: none;
     text-align: center;
     float: right;
+    font-family: Arial;
+    font-style:bold;
+    position:relative;
+}
+
+.mainNav a.Logo {
+    float: left;
 }
 
 .mainNav a:hover {
     background-color: rgb(81, 126, 234);
 }
 
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-right .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
 body {
     margin: 0;
-    background-color:rgb(250, 185, 114);
+    transition: background-color .5s;
+    height: 100%;
 }
 
 inputBlock {
@@ -57,12 +118,12 @@ input {
 }
 
 button {
-	background-color:rgb(163,67,25);
+	background-color:#6592fe;
     border-radius: 20px;
 	border: 3px solid rgba(31, 76, 184);
 	display:inline-block;
 	cursor:pointer;
-	color:rgb(250, 185, 114);
+	color: white;
 	font-family:SBAggroB;
 	font-size:25px;
 	padding:15px 30px;
@@ -107,10 +168,10 @@ button:active {
     display: inline-block;
     padding: 10px;
     width: 100%;
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
   }
   @keyframes fadein {
       from {
