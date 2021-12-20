@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type = "text/javascript" src = "../logButton.js"></script>
+<script type = "text/javascript" src = "../sidebar.js"></script>
+<script type = "text/javascript" src = "nextPage.js"></script>
+<link href="../style.css" type="text/css" rel="stylesheet"/>
+<title>Sea Pineapple</title>
+</head>
+<body>
+    <div id = "navigation">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <nav class="mainNav">
+            <a style="font-size: 15px" onclick="openNav()">☰</a> 
+            <a class="Logo" href="index.html">Logo</a> 
+        </nav>
+    </div>
+    <div class = "main">
+        <div class="questionFade">
+            <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 0">고유학번을 알려주세요!</h1>
+            <h6 style="text-align: center; margin-top: 0; margin-bottom: 35px; font-family: SBAggroB; font-size: 15px; color: #36c3fe;">고유학번이 없다면 나이스 학번을 알려주세요.</h6>
+            <div class="buttonLane">
+                <inputBlock> 
+                    <input type="text" name="studentId" onkeyup="nextPage(1)" id="studentId">
+                </inputBlock>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
