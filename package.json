@@ -3,7 +3,7 @@
   "description": "find your roommate",
   "private": true,
   "dependencies": {
-    "mysql": "2.18.1"
+    "mysql": "^2.18.1"
   },
   "repository": {
     "type": "git",
