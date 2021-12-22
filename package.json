@@ -3,7 +3,11 @@
   "description": "find your roommate",
   "private": true,
   "dependencies": {
-    "mysql2": "^2.3.3"
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7"
   },
   "repository": {
     "type": "git",
