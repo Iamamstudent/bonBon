@@ -103,7 +103,7 @@ inputBlock {
     box-shadow: 0px 2px 0px rgba(51, 96, 204);
 }
 
-input {
+input:required {
     background-color: #6592fe;
     color: white;
     border: none;
