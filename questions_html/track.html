@@ -24,12 +24,14 @@
     </div>
     <div class = "main">
         <div class="questionFade">
-            <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">계열을 알려주세요!</h1>   
-            <div class="buttonLane">
-                <button href="#" onclick="location.href='sex.html';">자연</button>
-                <button href="#" onclick="location.href='sex.html';">인문</button>
-                <button href="#" onclick="location.href='sex.html';">국제</button>
-            </div>
+            <form action="/users/creat" method="POST">
+                <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">계열을 알려주세요!</h1>   
+                <div class="buttonLane">
+                    <input type="button" href="#" onclick="location.href='sex.html';" value="자연">
+                    <input type="button" href="#" onclick="location.href='sex.html';" value="인문">
+                    <input type="button" href="#" onclick="location.href='sex.html';" value="국제">
+                </div>
+            </form>
         </div>
     </div>
 </body>

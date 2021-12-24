@@ -24,17 +24,19 @@
     </div>
     <div class = "main">
         <div class="questionFade">
-            <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">공부를 주로 어디서 하나요?</h1>   
-            <div class="buttonLane" onclick="location.href='noise.html';">
-                <button href="#">기숙사</button>
-                <button href="#">교실</button>
-                <button href="#">학교 자습실</button>
-                <button href="#">기숙사 자습실</button>
-                <inputBlock style="margin-top: 5px" href="#">
-                    <input type="text" name="otherStudyPlace" id="otherStudyPlace">
-                    <h6 style="float: left; text-align: center; margin-top: 4px; font-family: SBAggroB; font-size: 25px;">기타: &nbsp;</h6>
-                </inputBlock>
-            </div>
+            <form action="/users/creat" method="POST">
+                <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">공부를 주로 어디서 하나요?</h1>   
+                <div class="buttonLane" onclick="location.href='noise.html';">
+                    <input type="button" value="기숙사">
+                    <input type="button" value="교실">
+                    <input type="button" value="학교 자습실">
+                    <input type="button" value="기숙사 자습실">
+                    <inputBlock style="margin-top: 5px" href="#">
+                        <input type="text" name="otherStudyPlace" id="otherStudyPlace">
+                        <h6 style="float: left; text-align: center; margin-top: 4px; font-family: SBAggroB; font-size: 25px;">기타: &nbsp;</h6>
+                    </inputBlock>
+                </div>
+            </form>
         </div>
     </div>
 </body>

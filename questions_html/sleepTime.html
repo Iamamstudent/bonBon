@@ -24,14 +24,16 @@
     </div>
     <div class = "main">
         <div class="questionFade">
-            <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 0">보통 몇시쯤에 자나요?</h1>
-            <h6 style="text-align: center; margin-top: 0; margin-bottom: 35px; font-family: SBAggroB; font-size: 15px; color: #36c3fe;">(00시~24시)</h6>   
-            <div class="buttonLane">
-                <inputBlock href="#"> 
-                    <input type="text" name="sleepTime" onkeyup="nextPage(6)" id="sleepTime" required> 
-                    <h6 style="float: right; text-align: center; margin-top: 4px; font-family: SBAggroB; font-size: 25px;">&nbsp;시</h6>
-                </inputBlock>
-            </div>
+            <form action="/users/creat" method="POST">
+                <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 0">보통 몇시쯤에 자나요?</h1>
+                <h6 style="text-align: center; margin-top: 0; margin-bottom: 35px; font-family: SBAggroB; font-size: 15px; color: #36c3fe;">(00시~24시)</h6>   
+                <div class="buttonLane">
+                    <inputBlock href="#"> 
+                        <input type="text" name="sleepTime" onkeyup="nextPage(6)" id="sleepTime" required> 
+                        <h6 style="float: right; text-align: center; margin-top: 4px; font-family: SBAggroB; font-size: 25px;">&nbsp;시</h6>
+                    </inputBlock>
+                </div>
+            </form>
         </div>
     </div>
 </body>
