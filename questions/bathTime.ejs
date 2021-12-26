@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type = "text/javascript" src = "../logButton.js"></script>
+<script type = "text/javascript" src = "../sidebar.js"></script>
+<script type = "text/javascript" src = "nextPage.js"></script>
+<link href="../style.css" type="text/css" rel="stylesheet"/>
+<title>Sea Pineapple</title>
+</head>
+<body>
+    <div id = "navigation">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <nav class="mainNav">
+            <a style="font-size: 15px" onclick="openNav()">☰</a> 
+            <a class="Logo" href="../index.html">Logo</a> 
+        </nav>
+    </div>
+    <div class = "main">
+        <div class="questionFade">
+            <form action="/users/creat" method="POST">
+                <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">샤워는 언제 하나요?</h1>   
+                <div id="clickSubmit" class="buttonLane" onclick="location.href='finalComment.html';">
+                    <input type="button" name="before breakfast" value="아침먹기 전">
+                    <input type="button" name="before dinner" value="저녁먹기 전">
+                    <input type="button" name="before roll call" value="롤콜 전">
+                    <input type="button" name="after roll call" value="롤콜 이후">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
