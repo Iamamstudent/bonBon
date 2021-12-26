@@ -1,23 +1,31 @@
 <!DOCTYPE HTML>
 
 <html>
-<link href="./style.css" rel="stylesheet"/>
 <head>
 <script type = "text/javascript" src = "logButton.js"></script>
+<script type = "text/javascript" src = "sidebar.js"></script>
+<link href="./style.css" type="text/css" rel="stylesheet"/>
 <title>Sea Pineapple</title>
 </head>
 
 <body>
-    <nav class="mainNav">
-        <a onclick = "document.getElementById('menuBar').style.visibility = 'visible'">☰ menu</a> 
-        <a href="index.html">Home</a> 
-    </nav>
-    <div id = "menuBar" style = "visibility:hidden">
-        <button id = "logInButton" onclick = "logInButton()">Log In</button>
-        <a>My Page</a>
-        <a>Settings</a>
-    </div>  
-    <button onclick="location.href='studentId.html';">설문조사 시작!</button>
+    <div id = "navigation">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <nav class="mainNav">
+            <a style="font-size: 15px" onclick="openNav()">☰</a> 
+            <a class="Logo" href="index.html">Logo</a> 
+        </nav>
+    </div>
+    <div id="main">
+        <button onclick="location.href='questions_html/studentId.html';">설문조사 시작!</button>
+    </div>
 </body>
 
 </html>

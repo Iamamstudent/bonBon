@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type = "text/javascript" src = "../logButton.js"></script>
+<script type = "text/javascript" src = "../sidebar.js"></script>
+<script type = "text/javascript" src = "nextPage.js"></script>
+<link href="../style.css" type="text/css" rel="stylesheet"/>
+<title>Sea Pineapple</title>
+</head>
+<body>
+    <div id = "navigation">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <nav class="mainNav">
+            <a style="font-size: 15px" onclick="openNav()">☰</a> 
+            <a class="Logo" href="../index.html">Logo</a> 
+        </nav>
+    </div>
+    <div class = "main">
+        <div class="questionFade">
+            <form action="/users/creat" method="POST">
+                <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 0">전화번호를 알려주세요!</h1>
+                <h6 style="text-align: center; margin-top: 0; margin-bottom: 35px; font-family: SBAggroB; font-size: 15px; color: #36c3fe;">- 없이 전화번호 뒤 네 자리를 입력해주세요!</h6>
+                <div class="buttonLane">
+                    <inputBlock>
+                        <input style="width: 200px" type="text" name="phoneNum" onkeyup="nextPage(2)" id="phoneNum" required>
+                    </inputBlock>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

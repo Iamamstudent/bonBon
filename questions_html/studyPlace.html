@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type = "text/javascript" src = "../logButton.js"></script>
+<script type = "text/javascript" src = "../sidebar.js"></script>
+<script type = "text/javascript" src = "nextPage.js"></script>
+<link href="../style.css" type="text/css" rel="stylesheet"/>
+<title>Sea Pineapple</title>
+</head>
+<body>
+    <div id = "navigation">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <nav class="mainNav">
+            <a style="font-size: 15px" onclick="openNav()">☰</a> 
+            <a class="Logo" href="../index.html">Logo</a> 
+        </nav>
+    </div>
+    <div class = "main">
+        <div class="questionFade">
+            <form action="/users/creat" method="POST">
+                <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">공부를 주로 어디서 하나요?</h1>   
+                <div class="buttonLane" onclick="location.href='noise.html';">
+                    <input type="button" value="기숙사">
+                    <input type="button" value="교실">
+                    <input type="button" value="학교 자습실">
+                    <input type="button" value="기숙사 자습실">
+                    <inputBlock style="margin-top: 5px" href="#">
+                        <input type="text" name="otherStudyPlace" id="otherStudyPlace">
+                        <h6 style="float: left; text-align: center; margin-top: 4px; font-family: SBAggroB; font-size: 25px;">기타: &nbsp;</h6>
+                    </inputBlock>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
