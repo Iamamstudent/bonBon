@@ -26,11 +26,11 @@
         <div class="questionFade">
             <form action="/users/creat" method="POST">
                 <h1 style="text-align: center; font-family: SBAggroB; font-size: 45px; margin-bottom: 50px">공부를 주로 어디서 하나요?</h1>   
-                <div id="clickSubmit" class="buttonLane" onclick="location.href='noise.html';">
-                    <input type="button" name="dorm" value="기숙사">
-                    <input type="button" name="class room" value="교실">
-                    <input type="button" name="school study room" value="학교 자습실">
-                    <input type="button" name="dorm study room" value="기숙사 자습실">
+                <div class="buttonLane">
+                    <input type="button"  id="clickSubmit" onclick="buttonNext(11, 'dorm')" name="dorm" value="기숙사">
+                    <input type="button"  id="clickSubmit" onclick="buttonNext(11, 'class room')" name="class room" value="교실">
+                    <input type="button"  id="clickSubmit" onclick="buttonNext(11, 'school study romm')" name="school study room" value="학교 자습실">
+                    <input type="button"  id="clickSubmit" onclick="buttonNext(11, 'dorm study room')" name="dorm study room" value="기숙사 자습실">
                 </div>
             </form>
         </div>
