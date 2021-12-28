@@ -15,6 +15,6 @@ function nextPage(sth) {
             alert("Below must be filled out")
         }
     } else if (window.event.keyCode == 13) {
-        location.href=linkList[sth+1];
+        location.href=linkList[sth];
     }
 }
