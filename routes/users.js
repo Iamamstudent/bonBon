@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var db=require('../database');
 router.get('/form', function(req, res, next) {    //req-receive data from client, router.get() is used to get request
-res.render('users');    //res.render() is a function used to render a view and send the rendered HTML string to the client
+res.render('/questions');    //res.render() is a function used to render a view and send the rendered HTML string to the client
 });
 router.post('/create', function(req, res, next) {    //router.post() is used to post requests to the router
   

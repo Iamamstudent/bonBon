@@ -1,1 +1,0 @@
-document.getElementById("clickSubmit").submit();// Form submission
